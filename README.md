@@ -41,28 +41,28 @@ pip install -r requirements.txt
 
 Fetches and lists all resources in your cloud account. Useful for creating an inventory of your cloud assets.
 
-**File:** `scripts/cloud_resource_inventory.py`
+**File:** `aws-scripts/cloud_resource_inventory.py`
 
 ### 2. IAM Policy Analyzer
 
 Reviews IAM policies to identify overly permissive policies, helping to minimize the risk of privilege escalation.
 
-**File:** `scripts/iam_policy_analyzer.py`
+**File:** `aws-scripts/iam_policy_analyzer.py`
 
 ### 3. CloudTrail Log Analyzer
 
 Analyzes AWS CloudTrail logs for suspicious activities, such as unauthorized access or unusual actions.
 
-**File:** `scripts/cloudtrail_log_analyzer.py`
+**File:** `aws-scripts/cloudtrail_log_analyzer.py`
 
 ### 4. Security Group Auditor
 
 Checks AWS security groups for overly permissive rules, such as inbound rules that allow traffic from any IP address.
 
-**File:** `scripts/security_group_auditor.py`
+**File:** `aws-scripts/security_group_auditor.py`
 
 ### 5. S3 Bucket Access Checker
 
 Checks the access permissions of S3 buckets to ensure they are not publicly accessible or misconfigured.
 
-**File:** `scripts/s3_bucket_access_checker.py`
+**File:** `aws-scripts/s3_bucket_access_checker.py`
