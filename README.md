@@ -27,7 +27,6 @@ Follow these steps to get started with the Cloud Security Scripts:
 ## Prerequisites
 
 - Python 3.x
-- `boto3` library for interacting with AWS services
 
 Install the required Python library using pip:
 
