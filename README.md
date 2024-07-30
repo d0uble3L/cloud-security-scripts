@@ -35,7 +35,7 @@ Install the required Python library using pip:
 pip install -r requirements.txt
 ```
 
-## Scripts
+## AWS Scripts
 
 ### 1. Cloud Resource Inventory Scanner
 
