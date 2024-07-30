@@ -66,3 +66,32 @@ Checks AWS security groups for overly permissive rules, such as inbound rules th
 Checks the access permissions of S3 buckets to ensure they are not publicly accessible or misconfigured.
 
 **File:** `aws-scripts/s3_bucket_access_checker.py`
+
+## Azure Scripts
+
+The following scripts are designed for Azure cloud security management:
+
+1. **Azure Resource Inventory Scanner**
+
+- Fetches and lists all resources in your Azure subscription. Useful for creating an inventory of your Azure assets.
+- File: `azure-scripts/azure_resource_inventory.py`
+
+2. **Azure Role Assignment Analyzer**
+
+- Reviews Azure role assignments to identify overly permissive roles and manage user permissions effectively.
+- File: `azure-scripts/role_assignment_analyzer.py`
+
+3. **Azure Activity Log Analyzer**
+
+- Analyzes Azure Activity Logs for suspicious activities, such as unauthorized access or unusual actions.
+- File: `azure-scripts/activity_log_analyzer.py`
+
+4. **Azure Network Security Group Auditor**
+
+- Checks Azure Network Security Groups (NSGs) for overly permissive rules, such as inbound rules that allow traffic from any IP address.
+- File: `azure-scripts/nsg_auditor.py`
+
+5. **Azure Storage Account Access Checker**
+
+- Checks the access permissions of Azure Storage Accounts to ensure they are not publicly accessible or misconfigured.
+- File: `azure-scripts/storage_account_access_checker.py`
