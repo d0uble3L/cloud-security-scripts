@@ -1,0 +1,8 @@
+stages:
+  - test
+
+test_script:
+  stage: test
+  script:
+    - pip install azure-identity azure-mgmt-resourcegraph
+    - python azure_resource_graph_query.py
